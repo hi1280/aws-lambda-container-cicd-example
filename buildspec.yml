@@ -1,0 +1,8 @@
+version: 0.2
+env:
+  variables:
+    REPOSITORY_NAME: aws-lambda-container-cicd-example
+phases:
+  build:
+    commands:
+      - ./scripts/build.sh
